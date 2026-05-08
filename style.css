@@ -1,0 +1,55 @@
+li {
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-button {
+    width: 250px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: gray ;
+    color: black ;
+     cursor: pointer;
+}
+
+.menu a {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 12px;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.kontakt {
+    font-size: 22px;
+}
+
+li button {
+    margin-left: 50px;
+}
+
+#risk-button {
+    display: block;
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px;
+    font-size: 50px;
+}

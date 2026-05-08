@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Risk-Button</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <button onclick="toggleMenu()" class="menu-button">
+        Menü
+    </button>
+    
+    <nav id="menu" class="menu">
+        <a href="index.html">Startseite</a>
+        <a href="Checklist.html">Checkliste</a>
+        <a href="lucky-button.html">Risk-Button</a>
+        <a href="Kontakt.html">Kontakt</a>
+    </nav>
+    
+    <h1>Risk-Button</h1>
+    <h2 style="text-align: center;">der Knopf mit dem größten <u>Risiko!</u> </h2>
+    <h3><u>Wie funktioniert dieses Spiel?</u></h3>
+    <ul>
+    <li>Die Chance, dass man einen Punkt erhält, liegt am Anfang bei 100% pro Klick.</li>
+    <li>Mit jedem Klick verringert sich die Chance um 1 %.</li>
+    <li>Versuche, die 100 Klicks zu bekommen!</li>
+    </ul>
+
+    <button onclick="riskButton()" id="risk-button">
+    0
+    </button>
+
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

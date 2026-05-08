@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Checkliste</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+  
+<body>
+    <button onclick="toggleMenu()" class="menu-button">
+        Menü
+    </button>
+    
+    <nav id="menu" class="menu">
+        <a href="index.html">Startseite</a>
+        <a href="Checklist.html">Checkliste</a>
+        <a href="lucky-button.html">Risk-Button</a>
+        <a href="Kontakt.html">Kontakt</a>
+    </nav>
+    
+    <h1> Checkliste</h1>
+    <p> Hier kannst du dir eine eigene Liste erstellen; Ob für den <u><b>Einkauf</b></u>, <u><b>eine Geburtstagsparty</b></u> oder sonstiges.
+        Sie ist für alles zu verwenden.</p>
+
+    <input type="text" id="input">
+    <button onclick="addItem()">Hinzufügen</button>
+    <ul id="list"></ul>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
